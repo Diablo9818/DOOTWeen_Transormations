@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CoubeRotator : MonoBehaviour
 {
-    [SerializeField] Vector3 _position;
+    [SerializeField] private Vector3 _position;
     [SerializeField] private float _duration;
     [SerializeField] private int _repeats;
     [SerializeField] private LoopType _loopType;

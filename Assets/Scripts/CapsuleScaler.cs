@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class CapsuleScaler : MonoBehaviour
 {
-    [SerializeField] float _scaleSize;
+    [SerializeField] private float _scaleSize;
     [SerializeField] private float _duration;
     [SerializeField] private int _repeats;
     [SerializeField] private LoopType _loopType;

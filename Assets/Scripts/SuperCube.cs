@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class SuperCube : MonoBehaviour
 {
-    [SerializeField] Vector3 _position;
-    [SerializeField] Vector3 _rotatePosition;
-    [SerializeField] float _scaleSize;
+    [SerializeField] private Vector3 _position;
+    [SerializeField] private Vector3 _rotatePosition;
+    [SerializeField] private float _scaleSize;
 
     [SerializeField] private float _duration;
     [SerializeField] private int _repeats;
